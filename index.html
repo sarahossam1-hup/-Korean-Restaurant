@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>한국의 주방 | Korean Kitchen</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <span>한국의</span>
+            <strong>주방</strong>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="order-btn" type="button">
+            Order Now
+        </button>
+
+    </nav>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO</p>
+
+            <h1>한국의 주방</h1>
+
+            <h2>Korean Kitchen</h2>
+
+            <p class="hero-text">
+                Discover the authentic taste of Korea,
+                from steaming ramen to delicious traditional dishes.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="main-btn">
+                    Explore Menu
+                </a>
+
+                <a href="#reservation" class="second-btn">
+                    Reserve a Table
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img
+                src="95b5096d-b90d-455a-babf-c67ea35bd41b.jpeg"
+                alt="Korean food"
+            >
+
+        </div>
+
+        <div class="about-content">
+
+            <p class="section-small">
+                OUR STORY
+            </p>
+
+            <h2>
+                A Little Taste of Korea
+            </h2>
+
+            <p>
+                At 한국의 주방, we bring the heart of Korean cuisine
+                to your table through authentic flavors, warm hospitality,
+                and dishes made with passion.
+            </p>
+
+            <p>
+                From comforting ramen to traditional Korean favorites,
+                every dish is prepared to give you a true taste of Korea.
+            </p>
+
+            <a href="#menu" class="about-btn">
+                Discover Our Menu
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MENU
+    ========================== -->
+    <section class="menu" id="menu">
+
+        <div class="menu-heading">
+
+            <p class="section-small">
+                OUR MENU
+            </p>
+
+            <h2>
+                Popular Korean Dishes
+            </h2>
+
+            <p>
+                Discover some of our favorite Korean dishes,
+                prepared with authentic flavors and fresh ingredients.
+            </p>
+
+        </div>
+
+
+        <!-- Menu Categories -->
+        <div class="menu-categories">
+
+            <button
+                type="button"
+                onclick="showCategory('all', this)"
+                class="active"
+            >
+                All
+            </button>
+
+            <button
+                type="button"
+                onclick="showCategory('ramen', this)"
+            >
+                Ramen
+            </button>
+
+            <button
+                type="button"
+                onclick="showCategory('rice', this)"
+            >
+                Rice
+            </button>
+
+            <button
+                type="button"
+                onclick="showCategory('street', this)"
+            >
+                Street Food
+            </button>
+
+            <button
+                type="button"
+                onclick="showCategory('drinks', this)"
+            >
+                Drinks
+            </button>
+
+        </div>
+
+
+        <!-- Menu Grid -->
+        <div class="menu-grid">
+
+
+            <!-- =========================
+                 RAMEN
+            ========================== -->
+
+            <div class="food-card ramen">
+
+                <div class="food-image">
+
+                    <img
+                        src="a849fa05-2802-44b4-ba43-e2ded70cd37b.jpeg"
+                        alt="Spicy Korean Ramen"
+                    >
+
+                    <span>RAMEN</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Spicy Korean Ramen
+                    </h3>
+
+                    <p>
+                        Rich broth, noodles, egg and Korean spices.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$8.50</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 STREET FOOD
+            ========================== -->
+
+            <div class="food-card street">
+
+                <div class="food-image">
+
+                    <img
+                        src="391739fa-ad60-4e5c-9cf6-d443abb528ad.jpeg"
+                        alt="Spicy Tteokbokki"
+                    >
+
+                    <span>TTEOKBOKKI</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Spicy Tteokbokki
+                    </h3>
+
+                    <p>
+                        Soft rice cakes with a sweet and spicy sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$7.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- KIMBAP -->
+
+            <div class="food-card street">
+
+                <div class="food-image">
+
+                    <img
+                        src="d6daf1a8-efff-4391-a066-ac8d5dd32f18.jpeg"
+                        alt="Traditional Kimbap"
+                    >
+
+                    <span>KIMBAP</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Traditional Kimbap
+                    </h3>
+
+                    <p>
+                        Rice, vegetables and fresh ingredients
+                        wrapped in seaweed.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$6.50</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 RICE
+            ========================== -->
+
+            <div class="food-card rice">
+
+                <div class="food-image">
+
+                    <img
+                        src="94f84c64-4f6c-45aa-a137-aceeb17a4f41.jpeg"
+                        alt="Classic Bibimbap"
+                    >
+
+                    <span>BIBIMBAP</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Classic Bibimbap
+                    </h3>
+
+                    <p>
+                        Rice topped with vegetables, egg
+                        and Korean sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$9.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bibimbap Rice -->
+
+            <div class="food-card rice">
+
+                <div class="food-image">
+
+                    <img
+                        src="b.jpeg"
+                        alt="Bibimbap Rice"
+                    >
+
+                    <span>RICE</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Bibimbap
+                    </h3>
+
+                    <p>
+                        Korean rice topped with fresh vegetables,
+                        egg and spicy Korean sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$9.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bulgogi Rice -->
+
+            <div class="food-card rice">
+
+                <div class="food-image">
+
+                    <img
+                        src="06034787-32e3-4568-a800-3174365559e6.jpeg"
+                        alt="Bulgogi Rice"
+                    >
+
+                    <span>RICE</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Bulgogi Rice
+                    </h3>
+
+                    <p>
+                        Steamed rice served with tender Korean
+                        beef and savory bulgogi sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$11.50</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Kimchi Fried Rice -->
+
+            <div class="food-card rice">
+
+                <div class="food-image">
+
+                    <img
+                        src="3475c017-8a8a-423f-acd1-9ff11d72e287.jpeg"
+                        alt="Kimchi Fried Rice"
+                    >
+
+                    <span>RICE</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Kimchi Fried Rice
+                    </h3>
+
+                    <p>
+                        Fried rice mixed with Korean kimchi,
+                        vegetables and a soft fried egg.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$8.50</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Chicken Rice -->
+
+            <div class="food-card rice">
+
+                <div class="food-image">
+
+                    <img
+                        src="4a51dc48-165b-4ae5-addc-5ef8c43e28a5.jpeg"
+                        alt="Chicken Rice Bowl"
+                    >
+
+                    <span>RICE</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Chicken Rice Bowl
+                    </h3>
+
+                    <p>
+                        Steamed Korean rice with grilled chicken,
+                        vegetables and special house sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$10.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 STREET FOOD
+            ========================== -->
+
+            <!-- Odeng -->
+
+            <div class="food-card street">
+
+                <div class="food-image">
+
+                    <img
+                        src="c8c8a066-43d0-48f4-8230-f89ac508ee72.jpeg"
+                        alt="Korean Odeng"
+                    >
+
+                    <span>ODENG</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Korean Odeng
+                    </h3>
+
+                    <p>
+                        Traditional Korean fish cakes served
+                        with a warm savory broth.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$6.50</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Mandu -->
+
+            <div class="food-card street">
+
+                <div class="food-image">
+
+                    <img
+                        src="0bca6320-9821-472f-8dbf-5f35dbb2053e.jpeg"
+                        alt="Korean Mandu"
+                    >
+
+                    <span>MANDU</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Korean Mandu
+                    </h3>
+
+                    <p>
+                        Crispy Korean dumplings filled
+                        with vegetables and savory meat.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$8.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Korean Corn Dog -->
+
+            <div class="food-card street">
+
+                <div class="food-image">
+
+                    <img
+                        src="f1159dd1-b358-4f0e-8ee3-f74ec85699df.jpeg"
+                        alt="Korean Corn Dog"
+                    >
+
+                    <span>KOREAN CORN DOG</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Korean Corn Dog
+                    </h3>
+
+                    <p>
+                        Crispy golden coating with
+                        a delicious savory filling inside.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$7.50</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 DRINKS
+            ========================== -->
+
+            <!-- Barley Tea -->
+
+            <div class="food-card drinks">
+
+                <div class="food-image">
+
+                    <img
+                        src="66391d8f-b1c9-4a95-aea6-a02a24889cc5.jpeg"
+                        alt="Korean Barley Tea"
+                    >
+
+                    <span>BORI-CHA</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Korean Barley Tea
+                    </h3>
+
+                    <p>
+                        Traditional Korean roasted barley tea
+                        with a smooth and refreshing taste.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$4.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Sikhye -->
+
+            <div class="food-card drinks">
+
+                <div class="food-image">
+
+                    <img
+                        src="5fff680b-ca04-4d7d-9b4a-f37e4c70cf76.jpeg"
+                        alt="Sweet Sikhye"
+                    >
+
+                    <span>SIKHYE</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Sweet Sikhye
+                    </h3>
+
+                    <p>
+                        A traditional Korean sweet rice drink
+                        served chilled and refreshing.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$5.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Banana Milk -->
+
+            <div class="food-card drinks">
+
+                <div class="food-image">
+
+                    <img
+                        src="a7c2bbca-8e5d-4199-91a3-7db697dbb441.jpeg"
+                        alt="Korean Banana Milk"
+                    >
+
+                    <span>BANANA MILK</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Korean Banana Milk
+                    </h3>
+
+                    <p>
+                        Smooth and creamy banana milk inspired
+                        by a classic Korean favorite.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$4.50</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Korean Iced Tea -->
+
+            <div class="food-card drinks">
+
+                <div class="food-image">
+
+                    <img
+                        src="5a8b67b7-0463-425c-8eab-eb58bde8761b.jpeg"
+                        alt="Korean Iced Tea"
+                    >
+
+                    <span>ICED TEA</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <h3>
+                        Korean Iced Tea
+                    </h3>
+
+                    <p>
+                        Chilled Korean-style tea with a light,
+                        refreshing and delicate flavor.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span>$4.00</span>
+
+                        <button type="button">
+                            Add +
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         RESERVATION
+    ========================== -->
+    <section class="reservation" id="reservation">
+
+        <div class="reservation-heading">
+
+            <p class="section-small">
+                RESERVATION
+            </p>
+
+            <h2>
+                Reserve Your Table
+            </h2>
+
+            <p>
+                Make your visit special and enjoy an authentic
+                Korean dining experience at 한국의 주방.
+            </p>
+
+        </div>
+
+
+        <div class="reservation-container">
+
+
+            <div class="reservation-info">
+
+                <h3>
+                    Join Us
+                </h3>
+
+                <p>
+                    Whether you're coming for a quick meal or a
+                    special evening, we'd love to have you at our table.
+                </p>
+
+
+                <div class="info-item">
+
+                    <span>OPENING HOURS</span>
+
+                    <p>Monday - Sunday</p>
+
+                    <p>12:00 PM - 11:00 PM</p>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <span>LOCATION</span>
+
+                    <p>Zagazig, Egypt</p>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <span>CONTACT</span>
+
+                    <p>+20 XXX XXX XXXX</p>
+
+                    <p>info@koreankitchen.com</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Reservation Form -->
+
+            <form class="reservation-form">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="date">
+                            Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="date"
+                            name="date"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="time">
+                            Time
+                        </label>
+
+                        <input
+                            type="time"
+                            id="time"
+                            name="time"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="guests">
+                        Number of Guests
+                    </label>
+
+                    <select
+                        id="guests"
+                        name="guests"
+                        required
+                    >
+
+                        <option value="">
+                            Select guests
+                        </option>
+
+                        <option value="1">
+                            1 Guest
+                        </option>
+
+                        <option value="2">
+                            2 Guests
+                        </option>
+
+                        <option value="3">
+                            3 Guests
+                        </option>
+
+                        <option value="4">
+                            4 Guests
+                        </option>
+
+                        <option value="5">
+                            5 Guests
+                        </option>
+
+                        <option value="6">
+                            6+ Guests
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Special Request
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Any special request?"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="reservation-btn"
+                >
+                    Reserve Now
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+    <section class="contact" id="contact">
+
+        <div class="contact-heading">
+
+            <p class="section-small">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Contact Us
+            </h2>
+
+            <p>
+                Have a question or want to visit us?
+                We would love to hear from you.
+            </p>
+
+        </div>
+
+
+        <div class="contact-container">
+
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+
+                    <span>LOCATION</span>
+
+                    <h3>
+                        ZAGAZIG, EGYPT
+                    </h3>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>PHONE</span>
+
+                    <h3>
+                        +20 XXX XXX XXXX
+                    </h3>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>EMAIL</span>
+
+                    <h3>
+                        info@koreankitchen.com
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+
+            <form class="contact-form">
+
+                <div class="form-group">
+
+                    <label for="contact-name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="contact-name"
+                        name="contact-name"
+                        placeholder="Your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="contact-email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="contact-email"
+                        name="contact-email"
+                        placeholder="Your email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="contact-message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="contact-message"
+                        name="contact-message"
+                        rows="6"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="contact-btn"
+                >
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+
+            <div class="footer-brand">
+
+                <h2>
+                    한국의 주방
+                </h2>
+
+                <p>
+                    Authentic Korean flavors,
+                    warm hospitality and unforgettable moments.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About Us
+                </a>
+
+                <a href="#menu">
+                    Menu
+                </a>
+
+                <a href="#reservation">
+                    Reservation
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div class="footer-hours">
+
+                <h3>
+                    Opening Hours
+                </h3>
+
+                <p>
+                    Monday - Sunday
+                </p>
+
+                <p>
+                    12:00 PM - 11:00 PM
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 한국의 주방. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
